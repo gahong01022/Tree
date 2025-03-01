@@ -6,9 +6,12 @@ BST 類型題目
 
 中間可以加入判斷式
 
-EX:
-    BST(root->left);
+	BST(root->left);
+		
     curr->right = createNewNode(root->val);   
+		
     curr =curr->right;
+		
     root->left = NULL;
+		
     BST(root->right);
